@@ -1,1 +1,1 @@
-web: make run
+web: gunicorn stock_numbers:app
