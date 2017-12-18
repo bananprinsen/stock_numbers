@@ -1,1 +1,1 @@
-web: gunicorn stock_numbers:app
+web: STOCK_NUMBERS_SETTINGS=../settings.cfg gunicorn stock_numbers:app
